@@ -1,0 +1,26 @@
+<template>
+        <lightning-card>
+        <lightning-input type="text" label="Account Name" data-formfield="name"></lightning-input>
+        <lightning-input type="tel" label="Phone" value="" data-formfield="phone"></lightning-input>
+         <lightning-button variant="brand" label="Submit" title="Submit Form" onclick={SubmitHandler} class="slds-m-left_x-small"></lightning-button>
+ </lightning-card>>
+
+<template if:true={isActive}>
+        
+        <lightning-card>
+        <lightning-combobox
+            name="salutation"
+            label="Salutation"
+            value={value}
+            placeholder="Select Progress"
+            options={options}
+            onchange={handleChange} >
+        </lightning-combobox>
+
+        <lightning-input type="text" label="First Name" data-formfield="FirstName"></lightning-input>
+        <lightning-input type="text" label="Last Name" data-formfield="LastName"></lightning-input>
+
+        <lightning-button variant="brand" label="Submit" title="Submit Form" onclick={SaveHandler} class="slds-m-left_x-small"></lightning-button>
+        </lightning-card>
+</template>
+</template>
