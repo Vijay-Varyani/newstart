@@ -90,7 +90,7 @@
 
 <sf:deploy username="${sf.username}" password="${sf.password}" 
              sessionId="${sf.sessionId}" serverurl="${sf.serverurl}" 
-             maxPoll="600" deployRoot="/force.app" rollbackOnError="true" 
+             maxPoll="600" deployRoot="force.app/" rollbackOnError="true" 
              allowMissingFiles="true" pollWaitMillis="30000"/>
   </target>
 
