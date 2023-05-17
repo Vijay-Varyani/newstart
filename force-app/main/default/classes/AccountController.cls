@@ -2,6 +2,7 @@ public with sharing class AccountController {
     @AuraEnabled
     public static Account CreateAccount(String Name,String Phone){
         try {
+            //huyds
             Account acc=new Account();
             acc.Name=name;
             acc.Phone=phone;
