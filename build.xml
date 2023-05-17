@@ -86,7 +86,7 @@
     </target>
     
     <!--Deploy Process-->
-     <target name="deploy">
+     <target name="deployall">
 
 <sf:deploy username="${sf.username}" password="${sf.password}" 
              sessionId="${sf.sessionId}" serverurl="${sf.serverurl}" 
