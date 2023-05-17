@@ -33,7 +33,7 @@
     <name>CustomObject</name>
 </types>
 <types>
-    <members>*</members>
+    <members>New_Checkbox__c</members>
     <name>CustomField</name>
 </types>
     <types>
